@@ -29,7 +29,7 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
     - name: Run build with Gradle Wrapper
-      run: gradle build
+      run: ./gradle build
     - uses: actions/upload-artifact@v3
       with:
         name: Package
